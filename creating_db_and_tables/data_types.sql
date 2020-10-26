@@ -1,0 +1,21 @@
+-- Data Types 
+    -- Boolean
+        -- True or False 
+    -- Character 
+        -- char, varchar, text 
+    -- Numeric 
+        -- integer or float 
+    -- Temporal 
+        -- date, time, timestamp and interval 
+    -- UUID - Universally Unique Identifiers 
+        -- algo unique code to give number 
+    -- Array 
+        -- stores array of strings, numbers, etc 
+    -- JSON
+    -- Hstore key-value pair 
+    -- Special types 
+        -- network address and geometric data to name 2 
+
+    -- Example: Storing a phone number 
+        -- we don't perform arithmetic with numbers so, use a VARCHAR data type 
+        -- leading zeroes in area code could cause issues with integer as well 
