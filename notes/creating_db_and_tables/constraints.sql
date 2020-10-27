@@ -1,0 +1,32 @@
+-- Constraints 
+    -- the rules enforced on data columns 
+    -- used to prevent invalid data from beign entered into the database
+
+    -- Column Constraints 
+        -- in a single column to adhere to conditions  
+        -- Common Column Constraints 
+            -- NOT NULL Constraint
+                -- ensures a column cannot have a null value 
+            -- UNIQUE Constraint
+                -- ensures that all values in a column are different 
+            -- PRIMARY Key 
+                -- uniquely identifies each row/rect in a database table 
+            -- FOREIGN Key 
+                -- constraints data based on columns in other tables 
+            -- CHECK Constraint 
+                -- ensures that all values in a column satisfy certain conditions 
+            -- EXCLUSION Constraint 
+                -- if any two rows are compared on column or expression using the specified operator
+                -- not all of these comparisons will return TRUE 
+
+    -- Table Constraints 
+        -- applied to an entire table
+        -- Common Constraints 
+            -- CHECK(condition)
+                -- check a condition when inserting or updating data 
+            -- REFERENCES 
+                -- to constrain the value stored in the column that must exist in a column in another table 
+            -- UNIQUE (column_list)
+                -- forces values stored in the columns inside parentheses to be unique 
+            -- PRIMARY KEY (column_list)
+                -- allows you to define the primary key that consists of multiple columns 

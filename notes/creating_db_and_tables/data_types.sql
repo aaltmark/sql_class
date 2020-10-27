@@ -15,6 +15,9 @@
     -- Hstore key-value pair 
     -- Special types 
         -- network address and geometric data to name 2 
+        -- SERIAL - 'sequence' 
+            -- a special kind of db object that generates a sequence of integers 
+            -- often used as primary key column 
 
     -- Example: Storing a phone number 
         -- we don't perform arithmetic with numbers so, use a VARCHAR data type 
